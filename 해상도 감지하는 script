@@ -1,0 +1,5 @@
+$(window).resize(function() {
+    if ($(window).width() > 852) {
+        $("#gnb_all, #gnb_all_bg").hide(300);
+    }
+});
